@@ -1,24 +1,78 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/styles.css">
-  </head>
-  
-  <body>
-    <div class="header">Хэдер</div>
-            <div class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link inActivePage" href="../index.html">Главная</a></li>
-                    <li class="nav-item"><a class="nav-link inActivePage" href="news.html">Новости</a></li>
-                    <li class="nav-item"><a class="nav-link inActivePage" href="practices.html">Практики</a></li> 
-                    <li class="nav-item"><a class="nav-link inActivePage" href="goods.html">Товары</a></li>
-                    <li class="nav-item"><a class="nav-link inActivePage" href="contacts.html">Контакты</a></li>
-                </ul>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/styles.css">
+</head>
+
+<body>
+  <div class="page-container">
+    <div class="header">Наши товары</div>
+    <div class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link inActivePage" href="../index.html">Главная</a></li>
+        <li class="nav-item"><a class="nav-link inActivePage" href="news.html">Новости</a></li>
+        <li class="nav-item"><a class="nav-link inActivePage" href="practices.html">Практики</a></li>
+        <li class="nav-item"><a class="nav-link inActivePage" href="goods.html">Товары</a></li>
+        <li class="nav-item"><a class="nav-link inActivePage" href="contacts.html">Контакты</a></li>
+      </ul>
+    </div>
+
+    <main class="content">
+      
+      <section class="goods-section">
+        <h2 class="section-title">Каталог товаров</h2>
+        <p class="section-description">Мы предлагаем широкий ассортимент качественных товаров по доступным ценам</p>
+         
+        <div class="goods-container">
+          <article class="goods-card">
+            <div class="goods-image-container">
+                <img class="goods-image" src="../images/image0.jpg" alt="Смартфон последней модели">
             </div>
-  </body>
-  
-  <footer>
-  </footer>
+            <div class="goods-info">
+                <h3 class="goods-name">Охладитель для арбуза</h3>
+                <p class="goods-description">Инновационный охладитель для арбуза </p>
+                <p class="goods-price">999 999 ₽</p>
+                <button class="goods-button">В корзину</button>
+            </div>
+          </article>
+
+          <article class="goods-card">
+            <div class="goods-image-container">
+                <img class="goods-image" src="../images/image1.jpg" alt="Смартфон последней модели">
+            </div>
+            <div class="goods-info">
+                <h3 class="goods-name">Ворота последнего поколения</h3>
+                <p class="goods-description">Защитят от всего (наверное).</p>
+                <p class="goods-price">88 880 ₽</p>
+                <button class="goods-button">В корзину</button>
+            </div>
+          </article>
+
+          <article class="goods-card">
+            <div class="goods-image-container">
+                <img class="goods-image" src="../images/image2.jpg" alt="Смартфон последней модели">
+            </div>
+            <div class="goods-info">
+                <h3 class="goods-name">Гоночное кресло</h3>
+                <p class="goods-description">Этот повелитель дорог создан специально для гоночной трассы.</p>
+                <p class="goods-price"> 10 ₽</p>
+                <button class="goods-button">В корзину</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+
+
+    <div class='footer'>Футер</div>
+  </div>
+</body>
+
+
+
 </html>
