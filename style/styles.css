@@ -132,7 +132,7 @@ main.content {
 }
 
 .skill-tag {
-    background: linear-gradient(135deg, #E0FFFF 0%, #B0E0E6 100%); /* Голубой градиентный фон */
+    background: linear-gradient(135deg, #20B2AA 0%, #008080 100%); /* Голубой градиентный фон */
     color: white;
     padding: 12px 25px;
     border-radius: 25px;
@@ -191,7 +191,7 @@ main.content {
 /* ===== ФУТЕР ===== */
 .footer {
     font-weight: 500;
-    background: linear-gradient(135deg, #E0FFFF 0%, #B0E0E6 100%); /* Темный градиентный фон */
+    background: linear-gradient(135deg, #20B2AA 0%, #008080 100%); /* Темный градиентный фон */
     color: rgb(255, 255, 255); /* Белый цвет текста */
     text-align: center; /* Выравнивание по центру */
     padding: 30px; /* Внутренние отступы */
