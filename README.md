@@ -1,2 +1,2 @@
 [# frontend-and-backend-practice
-](https://someuser0110.github.io/frontend-and-backend-practice/pages/index.html)
+](https://someuser0110.github.io/frontend-and-backend-practice/index.html)
