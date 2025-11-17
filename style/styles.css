@@ -378,3 +378,21 @@ main.content {
         border-radius: 8px; /* можно чуть уменьшить радиус для мобильных */
     }
 }
+
+/* ===== КАСТОМНЫЕ СТИЛИ ДЛЯ УПРАВЛЕНИЯ ИЗ CSS ===== */
+
+/* Фон навигации */
+.custom-navbar {
+    background-color: #074b50 !important;
+}
+
+/* Изображения в карточках проектов */
+.project-card-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Логотип в шапке */
+.logo-icon {
+    height: 40px;
+}
